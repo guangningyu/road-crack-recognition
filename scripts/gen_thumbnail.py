@@ -1,7 +1,7 @@
 import os, sys
 from PIL import Image
 
-size = (960, 720)
+size = (960, 540)
 
 for infile in sys.argv[1:]:
     outfile = os.path.splitext(infile)[0] + "_thumbnail.JPG"
